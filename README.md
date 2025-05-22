@@ -4,18 +4,6 @@ This is a Python implementation of John Conway's Game of Life, a cellular automa
 
 This implementation uses Pygame for the graphical interface and NumPy for efficient grid manipulation.
 
-## Features
-
-*   **Visual Simulation:** Watch the patterns evolve on a grid.
-*   **Interactive Cell Placement:**
-    *   **Left-click** on a cell to toggle its state (alive/dead).
-    *   **Right-click and drag** to set multiple cells to alive.
-*   **Play/Pause Control:** A "Play" button to start and stop the simulation.
-*   **Resizable Window:** The game window can be resized, and the layout (including the play button) adapts.
-*   **Dynamic Sizing:** The initial window size is set to 80% of your screen's dimensions.
-*   **Configurable Grid:** The number of `LINES` and `COLUMNS` can be adjusted in the script.
-*   **Clear Visuals:** Uses distinct colors for live cells, dead cells, and the grid.
-
 ## Requirements
 
 *   Python 3.x
@@ -28,7 +16,7 @@ This implementation uses Pygame for the graphical interface and NumPy for effici
 1.  **Save the Code:** Save the provided Python script as a `.py` file (e.g., `game_of_life.py`).
 2.  **Install Dependencies:** If you haven't already, install Pygame and NumPy:
     ```bash
-    pip install pygame numpy pywin32
+    pip install pygame numpy
     ```
 3.  **Run the Script:** Execute the script from your terminal:
     ```bash
